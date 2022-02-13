@@ -1,0 +1,12 @@
+.bg{
+	background-color: #f8dcf8;
+}
+
+.error{
+	border :2px solid red !important;
+}
+
+.success{
+	border :2px solid limegreen !important;
+}
+

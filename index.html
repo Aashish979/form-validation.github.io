@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="bootstrap/css/mdb.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Form Validation</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Form Validation</a>
+	</nav>
+
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-4 m-auto">
+				<div class="card">
+					<div class="card-header bg-secondary text-white text-center">
+						<h4>Form Validaition</h4>
+					</div>
+					<div class="card-body bg">
+						<form id="form">
+							<div class="form-group">
+								<input type="text" class="form-control" id="username" placeholder="Username" autocomplete="off">
+								<small id="uname_error" class="text-danger"></small>
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control" id="email" placeholder="Email" autocomplete="off">
+								<small id="email_error" class="text-danger"></small>
+							</div>
+
+							<div class="form-group">
+								<input type="number" class="form-control" id="mobile" placeholder="Mobile No." autocomplete="off">
+								<small id="mobile_error" class="text-danger"></small>
+							</div>
+
+							<div class="form-group">
+								<input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off" >
+								<small id="pwd_error" class="text-danger"></small>
+							</div>
+
+							<div class="form-group">
+								<input type="password" class="form-control" id="confirm_password" placeholder="Confirm Password" autocomplete="off" >
+								<small id="cpwd_error" class="text-danger"></small>
+							</div>
+
+							<div class="text-center">
+								<input type="submit" class="btn btn-sm btn-success "></button>
+								<small class="text-danger"></small>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+		<!-- BODY ENDS -->
+		<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+		<script src="bootstrap/js/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="bootstrap/js/mdb.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+	</html>
+
